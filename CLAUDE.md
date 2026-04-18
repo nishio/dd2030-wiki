@@ -95,6 +95,50 @@ updated: YYYY-MM-DD
 5. `wiki/log.md` に作業記録を追記
 6. 必要に応じて新しいページを作成
 
+### ソースの更新
+
+#### 議事録（Google Docs）の再取り込み
+
+議事録は継続的に更新されるため、定期的に再取得してWikiに反映する。
+
+```bash
+# 1. Google Docsからテキストをダウンロード（上書き）
+curl -sL "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/export?format=txt" \
+  -o raw/minutes/weekly-general-meeting.txt
+
+curl -sL "https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/export?format=txt" \
+  -o raw/minutes/community-operations.txt
+
+curl -sL "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/export?format=txt" \
+  -o raw/minutes/broad-listening-book-meeting.txt
+
+curl -sL "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/export?format=txt" \
+  -o raw/minutes/project-coreloop.txt
+```
+
+```bash
+# 2. LLMに差分を読ませてWikiを更新
+# 例: 「raw/minutes/ の議事録が更新されたので、wiki/ の関連ページを更新して」
+```
+
+#### 週次レポート（GitHub）の再取り込み
+
+websiteリポジトリに新しいweekが追加されたら取り込む。
+
+```bash
+# 最新のhistoryデータを取得
+gh repo clone digitaldemocracy2030/website /tmp/dd2030-website -- --depth 1
+cp -r /tmp/dd2030-website/src/history/ raw/history/
+```
+
+| ソース | 場所 | Google Doc ID | 更新頻度 |
+|--------|------|--------------|----------|
+| 全体定例 | raw/minutes/weekly-general-meeting.txt | `1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I` | 毎週 |
+| コミュニティ運営 | raw/minutes/community-operations.txt | `1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4` | 毎週 |
+| BL本執筆定例 | raw/minutes/broad-listening-book-meeting.txt | `1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M` | 毎週 |
+| Project Coreloop | raw/minutes/project-coreloop.txt | `1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig` | 毎週 |
+| 週次レポート | raw/history/week*/ | GitHub digitaldemocracy2030/website | 毎週 |
+
 ### Query（質問）
 
 1. `wiki/index.md` を読んで関連ページを特定

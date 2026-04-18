@@ -83,7 +83,8 @@ dd2030-wiki/
 │   ├── timeline/            # 時系列の活動まとめ
 │   └── sources/             # ソース資料の要約
 ├── raw/                     # 元資料（不変）
-│   └── history/             # websiteリポジトリの週次レポート（50週分）
+│   ├── history/             # websiteリポジトリの週次レポート（50週分）
+│   └── minutes/             # Google Docsからエクスポートした議事録
 ├── content/                 # 自動生成（直接編集しない）
 ├── scripts/
 │   └── resolve-links.py     # wikilink解決スクリプト
@@ -93,18 +94,45 @@ dd2030-wiki/
 └── .github/workflows/       # GitHub Actions（自動デプロイ）
 ```
 
-## LLMと一緒に使う
+## ソースの更新
 
-このWikiはLLM（Claude Code等）と一緒にメンテナンスすることを前提としています。
+議事録や週次レポートは継続的に更新されるため、定期的に再取得してWikiに反映する。
+
+### 議事録の再取得
 
 ```bash
-# 新しいソースを取り込む
-# 1. raw/ にファイルを置く
-# 2. LLMに「raw/xxx.md を取り込んで」と指示
-# → LLMがソース要約を作成し、関連ページを更新し、indexに追加する
+# Google Docsから最新の議事録をダウンロード（上書き）
+curl -sL "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/export?format=txt" \
+  -o raw/minutes/weekly-general-meeting.txt
+curl -sL "https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/export?format=txt" \
+  -o raw/minutes/community-operations.txt
+curl -sL "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/export?format=txt" \
+  -o raw/minutes/broad-listening-book-meeting.txt
+curl -sL "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/export?format=txt" \
+  -o raw/minutes/project-coreloop.txt
 ```
 
-LLM向けの規約は [CLAUDE.md](CLAUDE.md) に記載しています。他のLLMエージェント（Codex, OpenCode等）を使う場合は、CLAUDE.mdの内容をそのエージェントの設定ファイル（AGENTS.md等）にコピーしてください。
+### 週次レポートの再取得
+
+```bash
+gh repo clone digitaldemocracy2030/website /tmp/dd2030-website -- --depth 1
+cp -r /tmp/dd2030-website/src/history/ raw/history/
+```
+
+### Wikiの更新
+
+ソースを再取得したら、LLMに差分を読ませてWikiを更新する。
+
+```bash
+# LLMに指示する例:
+# 「raw/minutes/ の議事録が更新されたので、wiki/ の関連ページを更新して」
+```
+
+ソースの一覧と Google Doc ID は [CLAUDE.md](CLAUDE.md) の「ソースの更新」セクションにまとめてある。
+
+## LLMと一緒に使う
+
+このWikiはLLM（Claude Code等）と一緒にメンテナンスすることを前提としています。LLM向けの規約は [CLAUDE.md](CLAUDE.md) に記載しています。他のLLMエージェント（Codex, OpenCode等）を使う場合は、CLAUDE.mdの内容をそのエージェントの設定ファイル（AGENTS.md等）にコピーしてください。
 
 ## ライセンス
 
