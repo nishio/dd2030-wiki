@@ -1,0 +1,51 @@
+---
+title: Index
+tags: [dd2030, index]
+created: 2026-04-18
+updated: 2026-04-18
+---
+
+# dd2030 Wiki — 目次
+
+dd2030プロジェクトの知識ベース。プロジェクトに初めて参加する人が全体像を把握できることを目指しています。
+
+## まずはここから
+
+- [[overview]] — プロジェクト全体の概要
+- [[時系列まとめ|timeline/quarterly-summary]] — 1年間の活動を四半期ごとに整理
+
+## プロダクト
+
+- [[広聴AI|entities/kouchou-ai]] — 大量の市民意見をAIで分析・可視化するツール
+- [[いどばた|entities/idobata]] — 市民が政策テーマについて対話できるプラットフォーム
+- [[Polimoney|entities/polimoney]] — 政治資金収支報告書を可視化するツール
+
+## プロジェクト
+
+- [[コアループ|entities/coreloop]] — 詐欺広告対策の市民熟議プロジェクト（2026年〜）
+- [[ブロードリスニング本|entities/broad-listening-book]] — 書籍化プロジェクト（インプレスから出版予定）
+
+## 概念・用語
+
+- [[ブロードリスニング|concepts/broad-listening]] — 大量の市民の声をAIで可視化するアプローチ
+- [[熟議民主主義|concepts/deliberative-democracy]] — 対話を通じた合意形成の民主主義モデル
+
+## エンティティ（人物・組織・チーム）
+
+<!-- 今後追加: ボードメンバー、主要コントリビューター、連携組織等 -->
+
+## イベント・会議
+
+<!-- 今後追加: ミートアップ、記者会見、Code for Japan Summit等 -->
+
+## ソース要約
+
+ソースは `raw/history/` に50週分（week1〜week50）の週次レポートとして格納。各週に以下のファイルが含まれる：
+
+| ファイル | 内容 |
+|---|---|
+| `slack.md` | Slackの週次まとめ（全週にあり） |
+| `kouchou-ai.md` | 広聴AIの開発進捗 |
+| `idobata.md` | いどばたの開発進捗 |
+| `polimoney.md` | Polimoneyの開発進捗 |
+| `website.md` | Webサイトの更新 |
