@@ -137,6 +137,15 @@ gh repo clone digitaldemocracy2030/website /tmp/dd2030-website -- --depth 1
 cp -r /tmp/dd2030-website/src/history/ raw/history/
 ```
 
+#### ブロードリスニング本（GitHub）の再取り込み
+
+```bash
+gh repo clone digitaldemocracy2030/broad-listening-book /tmp/bl-book -- --depth 1
+mkdir -p raw/broad-listening-book
+cp /tmp/bl-book/*.md raw/broad-listening-book/
+cp -r /tmp/bl-book/column raw/broad-listening-book/
+```
+
 | ソース | 場所 | Google Doc ID | 更新頻度 |
 |--------|------|--------------|----------|
 | 全体定例 | raw/minutes/weekly-general-meeting.txt | `1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I` | 毎週 |
