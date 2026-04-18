@@ -1,5 +1,6 @@
 ---
 title: Polimoney
+aliases: [Polimoney]
 tags: [dd2030, product, polimoney]
 sources: [raw/history/week5_20250416/polimoney.md, raw/history/week15_20250625/polimoney.md, raw/history/week25_20250903/polimoney.md, raw/history/week35_20251112/polimoney.md, raw/history/week40_20251217/polimoney.md]
 created: 2026-04-18

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh api:*)",
+      "Bash(gh repo:*)",
+      "Bash(ls -d /Users/nishio/dd2030-wiki/raw/history/week*)"
+    ]
+  }
+}

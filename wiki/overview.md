@@ -1,5 +1,6 @@
 ---
 title: dd2030 プロジェクト概要
+aliases: [overview]
 tags: [dd2030, overview]
 sources: [raw/history/week1_20250319/slack.md, raw/history/week50_20260415/slack.md]
 created: 2026-04-18

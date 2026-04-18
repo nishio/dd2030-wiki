@@ -1,5 +1,6 @@
 ---
 title: ブロードリスニング
+aliases: [ブロードリスニング]
 tags: [dd2030, concept]
 sources: [raw/history/week14_20250618/slack.md, raw/history/week29_20251001/slack.md, raw/history/week37_20251126/slack.md]
 created: 2026-04-18

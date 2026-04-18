@@ -1,5 +1,6 @@
 ---
 title: 時系列まとめ
+aliases: [時系列まとめ]
 tags: [dd2030, timeline]
 sources: [raw/history/]
 created: 2026-04-18

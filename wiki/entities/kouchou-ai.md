@@ -1,5 +1,6 @@
 ---
 title: 広聴AI
+aliases: [広聴AI]
 tags: [dd2030, product, kouchou-ai]
 sources: [raw/history/week1_20250319/kouchou-ai.md, raw/history/week10_20250521/kouchou-ai.md, raw/history/week20_20250730/kouchou-ai.md, raw/history/week30_20251008/kouchou-ai.md, raw/history/week44_20260121/kouchou-ai.md, raw/history/week50_20260415/kouchou-ai.md]
 created: 2026-04-18

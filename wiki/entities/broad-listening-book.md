@@ -1,5 +1,6 @@
 ---
 title: ブロードリスニング本
+aliases: [ブロードリスニング本]
 tags: [dd2030, project, book]
 sources: [raw/history/week29_20251001/slack.md, raw/history/week35_20251112/slack.md, raw/history/week39_20251210/slack.md, raw/history/week44_20260121/slack.md, raw/history/week48_20260325/slack.md]
 created: 2026-04-18

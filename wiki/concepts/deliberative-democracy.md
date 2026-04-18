@@ -1,5 +1,6 @@
 ---
 title: 熟議民主主義
+aliases: [熟議民主主義]
 tags: [dd2030, concept]
 sources: [raw/history/week41_20251224/slack.md, raw/history/week43_20260114/slack.md]
 created: 2026-04-18

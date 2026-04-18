@@ -1,5 +1,6 @@
 ---
 title: いどばた
+aliases: [いどばた]
 tags: [dd2030, product, idobata]
 sources: [raw/history/week1_20250319/idobata.md, raw/history/week10_20250521/idobata.md, raw/history/week20_20250730/idobata.md, raw/history/week30_20251008/idobata.md]
 created: 2026-04-18

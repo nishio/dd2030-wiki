@@ -1,5 +1,6 @@
 ---
 title: コアループ（Project Coreloop）
+aliases: [コアループ]
 tags: [dd2030, project, coreloop]
 sources: [raw/history/week43_20260114/slack.md, raw/history/week45_20260218/slack.md, raw/history/week46_20260225/slack.md, raw/history/week47_20260311/slack.md]
 created: 2026-04-18
