@@ -46,6 +46,11 @@ dd2030では[[entities/kouchou-ai|広聴AI]]がこの概念を技術的に実現
 - **vTaiwan** — 台湾のデジタル民主主義プラットフォーム（オードリー・タンが推進）
 - **Polis** — 意見のクラスタリング・可視化ツール（広聴AIの参考となったシステム）
 
+## もっと詳しく
+
+- [ブロードリスニング本 1章「ブロードリスニングとは何か？」](https://github.com/digitaldemocracy2030/broad-listening-book/blob/main/01_%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%EF%BC%9F.md) — 概念の詳細な解説
+- [ブロードリスニング本 3章「デジタル民主主義とブロードリスニング」](https://github.com/digitaldemocracy2030/broad-listening-book/blob/main/03_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%81%A8%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%80%81%E6%96%B0%E3%81%97%E3%81%84%E6%B0%91%E6%84%8F%E3%81%AE%E5%B1%8A%E3%81%91%E6%96%B9.md) — 理論的な位置づけ
+
 ## 関連ページ
 
 - [[entities/kouchou-ai|広聴AI]] — ブロードリスニングを実現するツール

@@ -85,6 +85,11 @@ dd2030コミュニティから生まれた書籍プロジェクト。[[concepts/
 - 日テレへの修正版原稿・スクショ引用許可依頼中
 - Code for Japanの原稿が未提出
 
+## もっと詳しく
+
+- [broad-listening-book GitHubリポジトリ](https://github.com/digitaldemocracy2030/broad-listening-book) — 書籍原稿の全文（Markdown）
+- [ブロードリスニング本 執筆定例 議事録（Google Docs）](https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M) — 執筆・校正の進捗議事録
+
 ## 関連ページ
 
 - [[concepts/broad-listening|ブロードリスニング]] — 本書のテーマ

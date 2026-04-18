@@ -68,6 +68,13 @@ updated: 2026-04-18
 - 奈良市 — 導入議論
 - その他複数の自治体が関心を表明
 
+## もっと詳しく
+
+- [広聴AI GitHubリポジトリ](https://github.com/digitaldemocracy2030/kouchou-ai) — ソースコード・Issue・PR
+- [ブロードリスニング本 10章「DD2030による広聴AIの開発活動」](https://github.com/digitaldemocracy2030/broad-listening-book/blob/main/10_00_DD2030%E3%81%AB%E3%82%88%E3%82%8B%E5%BA%83%E8%81%B4AI%E3%81%AE%E9%96%8B%E7%99%BA%E6%B4%BB%E5%8B%95.md) — 開発の歴史と技術的背景
+- [ブロードリスニング本 12章「要素技術解説」](https://github.com/digitaldemocracy2030/broad-listening-book/blob/main/12_%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E8%A6%81%E7%B4%A0%E6%8A%80%E8%A1%93%E8%A7%A3%E8%AA%AC.md) — UMAP・クラスタリング等の技術解説
+- [広聴AI技術解説スライド](https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546) — 2025年6月公開の解説資料
+
 ## 関連ページ
 
 - [[concepts/broad-listening|ブロードリスニング]] — 広聴AIが実現する概念

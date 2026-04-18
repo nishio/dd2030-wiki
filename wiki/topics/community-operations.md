@@ -84,6 +84,12 @@ dd2030のSlackコミュニティの運営に関する活動。コミュニティ
 - **Endo**: 元記者、DD2030活動紹介ドキュメント作成
 - **Kuboon**: GitHub・Web管理
 
+## もっと詳しく
+
+- [コミュニティ運営議事録（Google Docs）](https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4) — 毎週の運営定例の議事録
+- [週次全体定例 議事録（Google Docs）](https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I) — 全体定例の議事録
+- [プロジェクトの歴史（Webサイト）](https://dd2030.org/history/) — 週ごとの活動まとめ
+
 ## 関連ページ
 
 - [[overview]] — プロジェクト全体の概要

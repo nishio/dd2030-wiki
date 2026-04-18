@@ -72,7 +72,14 @@ updated: 2026-04-18
 - GitHub上でのオープンソース開発（`good first issue` で初心者歓迎）
 - DevinやClaude Codeなど、AI開発ツールを積極活用
 
-## 関連リンク
+## もっと詳しく
+
+- [週次全体定例 議事録（Google Docs）](https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I) — 毎週の全体定例の生の議事録
+- [プロジェクトの歴史（Webサイト）](https://dd2030.org/history/) — 週ごとの活動まとめ
+- [ブロードリスニング本 原稿（GitHub）](https://github.com/digitaldemocracy2030/broad-listening-book) — DD2030の歴史や事例を詳しく解説した書籍原稿
+- [dd2030.org](https://dd2030.org/) — 公式サイト
+
+## 関連ページ
 
 - [[index]] — Wiki目次
 - [[時系列まとめ]] — 週次・四半期の活動記録

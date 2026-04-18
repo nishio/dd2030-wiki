@@ -93,6 +93,12 @@ updated: 2026-04-18
 - **岩永さん（和歌山県議）**: 選挙運動費用収支報告書のパイロットユーザー
 - **burikaigi**: shimizuが登壇しPolimoney紹介（2026年1月）
 
+## もっと詳しく
+
+- [Polimoney GitHubリポジトリ](https://github.com/digitaldemocracy2030/polimoney) — ソースコード
+- [Polimoney 公開サイト](https://polimoney.dd2030.org/) — 実際の政治資金可視化ページ
+- [Polimoney 議事録（Google Docs）](https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M) — 定例会の議事録
+
 ## 関連ページ
 
 - [[overview]] — プロジェクト全体の概要
