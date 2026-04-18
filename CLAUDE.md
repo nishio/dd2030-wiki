@@ -114,6 +114,12 @@ curl -sL "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpc
 
 curl -sL "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/export?format=txt" \
   -o raw/minutes/project-coreloop.txt
+
+curl -sL "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/export?format=txt" \
+  -o raw/minutes/polimoney.txt
+
+curl -sL "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/export?format=txt" \
+  -o raw/minutes/idobata-project.txt
 ```
 
 ```bash
@@ -137,6 +143,8 @@ cp -r /tmp/dd2030-website/src/history/ raw/history/
 | コミュニティ運営 | raw/minutes/community-operations.txt | `1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4` | 毎週 |
 | BL本執筆定例 | raw/minutes/broad-listening-book-meeting.txt | `1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M` | 毎週 |
 | Project Coreloop | raw/minutes/project-coreloop.txt | `1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig` | 毎週 |
+| Polimoney | raw/minutes/polimoney.txt | `19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M` | 毎週 |
+| いどばた | raw/minutes/idobata-project.txt | `1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU` | 毎週 |
 | 週次レポート | raw/history/week*/ | GitHub digitaldemocracy2030/website | 毎週 |
 
 ### Query（質問）

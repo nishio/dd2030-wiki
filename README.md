@@ -110,6 +110,10 @@ curl -sL "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpc
   -o raw/minutes/broad-listening-book-meeting.txt
 curl -sL "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/export?format=txt" \
   -o raw/minutes/project-coreloop.txt
+curl -sL "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/export?format=txt" \
+  -o raw/minutes/polimoney.txt
+curl -sL "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/export?format=txt" \
+  -o raw/minutes/idobata-project.txt
 ```
 
 ### 週次レポートの再取得
