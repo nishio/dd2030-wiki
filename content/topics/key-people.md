@@ -25,7 +25,7 @@ dd2030プロジェクトに関わる主要な人物の一覧。
 | **nishio（西尾泰和）** | [[entities/kouchou-ai|広聴AI]]主要開発者。プラグインシステム設計。台湾章執筆。Audrey Tangとの調整 |
 | **Ohki（大木真吾）** | 広聴AIチームリード・渉外。自治体との調整窓口 |
 | **tokoroten（中山心太）** | [[entities/broad-listening-book|ブロードリスニング本]]プロジェクトリーダー。1〜3章・技術解説等の主執筆者。farbrain・DivConの開発者 |
-| **sumino（角野直子）** | ブロードリスニング本執筆（日テレ章、チームみらい章） |
+| **sumino（角野なすか / 角野為耶）** | ブロードリスニング本執筆（日テレ章、チームみらい章） |
 | **bluemo（青山）** | Cartographer開発者。多元現実代表。AI熟議支援ツール開発 |
 
 ## [[entities/coreloop|コアループ]]
