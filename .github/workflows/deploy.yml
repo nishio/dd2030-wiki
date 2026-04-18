@@ -32,7 +32,18 @@ jobs:
       - name: Install pnpm
         run: corepack enable && corepack prepare pnpm@latest --activate
 
-      - name: Install dependencies
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Resolve wikilinks (wiki/ → content/)
+        run: python3 scripts/resolve-links.py
+
+      - name: Install Node dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build

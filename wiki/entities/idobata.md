@@ -69,6 +69,6 @@ updated: 2026-04-18
 
 ## 関連ページ
 
-- [[entities/kouchou-ai|広聴AI]] — 姉妹プロダクト（分析型）
+- [[広聴AI]] — 姉妹プロダクト（分析型）
 - Cartography — 派生コンセプト
 - [[overview]] — プロジェクト全体の概要

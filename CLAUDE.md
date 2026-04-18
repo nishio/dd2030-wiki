@@ -53,8 +53,10 @@ updated: YYYY-MM-DD
 
 ### 内部リンク
 
-- Obsidian互換の `[[ページ名]]` 記法を使う。
-- リンク先がまだ存在しない場合でもリンクを張ってよい（赤リンク）。後で作成する。
+- `wiki/` ではシンプルな `[[ページ名]]` 記法を使う（例: `[[広聴AI]]`, `[[overview]]`）。
+- パスの指定は不要。`scripts/resolve-links.py` がビルド時に自動でパスに解決する。
+- リンク先がまだ存在しない場合でもリンクを張ってよい（プレーンテキストに変換される）。
+- **content/ は直接編集しない。** wiki/ を編集し、スクリプトで content/ を生成する。
 
 ### カテゴリ別の書き方
 
@@ -106,6 +108,17 @@ updated: YYYY-MM-DD
 - 古い情報の更新
 - 矛盾する記述の発見と解消
 - indexへの未登録ページの検出
+
+## ビルドパイプライン
+
+`wiki/` → (resolve-links.py) → `content/` → (Quartz) → `public/` → GitHub Pages
+
+1. `wiki/` のMarkdownを編集する（シンプルな `[[ページ名]]` でリンク）
+2. `python3 scripts/resolve-links.py` が `wiki/` を読み、リンクをファイルパスに解決して `content/` に出力
+3. `npx quartz build` が `content/` からHTMLを生成
+4. GitHub Actions が自動でこの全ステップを実行してデプロイ
+
+ローカルでの確認: `python3 scripts/resolve-links.py && npx quartz build --serve`
 
 ## dd2030プロジェクト固有の注意
 
