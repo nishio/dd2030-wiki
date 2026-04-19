@@ -78,6 +78,10 @@ updated: 2026-04-18
 ## 関連ページ
 
 - [[concepts/broad-listening|ブロードリスニング]] — 広聴AIが実現する概念
+- [[concepts/deliberative-democracy|熟議民主主義]] — 理論的背景
 - [[entities/broad-listening-book|ブロードリスニング本]] — 書籍化プロジェクト
 - [[entities/idobata|いどばた]] — 姉妹プロダクト（対話型）
+- [[entities/coreloop|コアループ]] — 熟議プロセスの社会実装
+- [[timeline/quarterly-summary|時系列まとめ]] — 四半期ごとの活動記録
+- [[topics/key-people|主要メンバー]] — プロジェクトの主要な人物
 - [[overview]] — プロジェクト全体の概要

@@ -95,4 +95,6 @@ dd2030コミュニティから生まれた書籍プロジェクト。[[concepts/
 - [[concepts/broad-listening|ブロードリスニング]] — 本書のテーマ
 - [[entities/kouchou-ai|広聴AI]] — 技術解説の対象
 - [[entities/coreloop|コアループ]] — 本書と連動するプロジェクト
+- [[timeline/quarterly-summary|時系列まとめ]] — 四半期ごとの活動記録
+- [[topics/key-people|主要メンバー]] — プロジェクトの主要な人物
 - [[overview]] — プロジェクト全体の概要

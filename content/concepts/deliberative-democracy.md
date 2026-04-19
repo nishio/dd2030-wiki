@@ -32,6 +32,8 @@ dd2030の活動は以下のように段階的に発展してきた：
 
 ## 関連ページ
 
-- [[concepts/broad-listening|ブロードリスニング]] — 意見収集のアプローチ
+- [[concepts/broad-listening|ブロードリスニング]] — 意見収集のアプローチ（熟議の前段階）
+- [[entities/kouchou-ai|広聴AI]] — 意見分析ツール
+- [[entities/idobata|いどばた]] — 対話プラットフォーム
 - [[entities/coreloop|コアループ]] — 熟議プロセスの社会実装プロジェクト
 - [[overview]] — プロジェクト全体の概要

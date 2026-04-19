@@ -102,4 +102,5 @@ updated: 2026-04-18
 ## 関連ページ
 
 - [[overview]] — プロジェクト全体の概要
+- [[timeline/quarterly-summary|時系列まとめ]] — 四半期ごとの活動記録
 - [[topics/key-people|主要メンバー]] — プロジェクトの主要な人物

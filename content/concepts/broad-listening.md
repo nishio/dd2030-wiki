@@ -54,6 +54,7 @@ dd2030では[[entities/kouchou-ai|広聴AI]]がこの概念を技術的に実現
 ## 関連ページ
 
 - [[entities/kouchou-ai|広聴AI]] — ブロードリスニングを実現するツール
+- [[entities/idobata|いどばた]] — 対話プラットフォーム
 - [[entities/broad-listening-book|ブロードリスニング本]] — 書籍化プロジェクト
 - [[entities/coreloop|コアループ]] — ブロードリスニングを含む熟議プロセス設計
 - [[overview]] — プロジェクト全体の概要
