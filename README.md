@@ -1,8 +1,11 @@
 # dd2030 Wiki
 
+> [!IMPORTANT]
+> このリポジトリの公開サイトは移動しました。新しい公開サイトは https://digitaldemocracy2030.github.io/dd2030-wiki/ です。旧URL（https://nishio.github.io/dd2030-wiki/）では移動告知ページを配信しています。
+
 [デジタル民主主義2030（dd2030）](https://dd2030.org)プロジェクトの活動を整理したWikiです。Slackログ、議事録、週次レポート、資料から情報を抽出し、プロジェクトに初めて来た人が理解しやすい形にまとめています。
 
-**公開サイト**: https://nishio.github.io/dd2030-wiki/
+**公開サイト**: https://digitaldemocracy2030.github.io/dd2030-wiki/
 
 ## 仕組み
 
